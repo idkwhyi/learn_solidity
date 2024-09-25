@@ -23,7 +23,7 @@ contract Conditionals {
         return count;
     }
 
-    function isEvenNumber(uint _number) public view returns(bool) {
+    function isEvenNumber(uint _number) public pure returns(bool) {
         if(_number % 2 == 0) {
             return true;
         } else {
