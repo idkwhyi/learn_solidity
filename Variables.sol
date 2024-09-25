@@ -22,9 +22,6 @@ contract Variables {
 
     MyStruct public structName = MyStruct(1, "hello");
 
-    
-
-
     // local variables
     function getValue() public pure returns (uint){
         uint value = 1;
